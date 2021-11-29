@@ -1,0 +1,7 @@
+page_module.herolist:
+  path: '/herolist'
+  defaults:
+    _controller: '\Drupal\page_module\Controller\PageController::heroList'
+    _title: 'Our super heroes list'
+  requirements:
+    _permission: 'access content'
